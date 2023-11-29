@@ -1,7 +1,7 @@
 import test, { expect } from '@playwright/test';
 
 test.describe('Home', () => {
-    test('Open HomePage and verify title ', async ({ page }) => {
+    test('Open HomePage and verify title ', async ({page}) => {
         // open url
         await page.goto('https://practice.sdetunicorns.com/');
 
